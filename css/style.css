@@ -1,3 +1,28 @@
 body {
-  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+.logoblue {
+  color: blue;
+}
+h1 {
+  color: white;
+}
+.header {
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0, 02em;
+}
+.list_navigation {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }

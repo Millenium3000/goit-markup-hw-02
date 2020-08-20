@@ -5,28 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="normalize" href="./normalize.css"
+    <link rel="normalize" href="./normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,400&family=Roboto:ital,wght@0,400;0,900;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="/">WebStudio</a>
+    <header class="header">
+      <!-- Шапка сайта -->
+      <!-- хедер класс page header -->
+      <!-- Попробуем воспроизвести ход мыслей, из-за которых рождается такое решение:
 
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+Айди может быть только один — это уникальное значение.
+Шапка на сайте только одна, значит это уникальный элемент.
+Получается, шапке стили напишем через идентификатор, ведь они больше нигде не будут использоваться. -->
+      <!-- навигация -->
+      <nav class="nav">
+        <a href="./index.html" class="logo"
+          ><span class="logoblue">Web</span>Studio</a
+        >
+
+        <ul class="list_navigation">
+          <!-- в ul -class site nav -->
+          <li><a class link_b href="">Студия</a></li>
+          <li><a class link href="./portfolio.html">Портфолио</a></li>
+          <li><a class link href="">Контакты</a></li>
         </ul>
-      </nav>
 
-      <ul>
-        <li>
-          <a href="">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
-        </li>
-      </ul>
+        <!-- тут ставить селектор class="logo" -->
+      </nav>
+      <address class="address">
+        <ul>
+          <li>
+            <a href="">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </address>
     </header>
 
     <!--Container hero-->
