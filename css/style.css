@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: var(--button_text);
 }
 /* убрал маркир список */
@@ -123,4 +123,43 @@ h1 {
 }
 .studio {
   color: var(--button_text);
+}
+
+/* хеадер портфолио */
+.head-port {
+  width: 300px;
+  height: 350px;
+  left: 215px;
+  top: 174px;
+}
+/* Адрес */
+.white1 {
+  color: var(--button_text);
+}
+/* фон майн */
+.backgr-port {
+  background: var(--button_text);
+}
+.footer-port {
+  background-color: var(--hero_color);
+  color: #ffffff;
+  text-decoration: none;
+}
+/* стили кнопок */
+.button-port:hover,
+.button-port:focus {
+  background-color: var(--blue);
+  color: var(--button_text);
+}
+.button:active {
+  font-size: 1.63;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
+.button-port {
+  background-color: var(--button_text);
+  color: var(--title_color);
+}
+ul {
+  list-style: none;
 }
