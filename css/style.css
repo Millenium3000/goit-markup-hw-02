@@ -5,6 +5,7 @@
   --button_text: #ffffff;
   --title_color: #212121;
   --color_rgba: rgba(255, 255, 255, 0.6);
+  --pink: #f5f4fa;
 }
 
 body {
@@ -14,10 +15,12 @@ body {
 /* убрал маркир список */
 .list {
   list-style: none;
+  text-decoration: none;
 }
 /* Убирает подчеркивание в ссылках */
-.link {
+.site-nav {
   text-decoration: none;
+  list-style: none;
 }
 /* Логотип */
 .logo {
@@ -29,7 +32,7 @@ body {
   color: var(--blue);
 }
 
-.link current {
+.link .current {
   color: var(--blue);
 }
 .site-nav:hover:focus {
@@ -110,5 +113,14 @@ h1 {
   background-color: var(--hero_color);
 }
 .white {
-  background-color: var(--button_text);
+  color: var(--button_text);
+}
+.link-var {
+  color: var(--color_rgba);
+}
+.pink {
+  background-color: var(--pink);
+}
+.studio {
+  color: var(--button_text);
 }
