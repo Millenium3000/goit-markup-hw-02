@@ -22,28 +22,42 @@ body {
   text-decoration: none;
   list-style: none;
 }
+.link-current {
+  color: var(--blue);
+}
 /* Логотип */
 .logo {
   color: var(--title_color);
   font-family: raleway, cursive;
 }
-
-.logoblue {
+.logo .link {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo .logoblue {
   color: var(--blue);
 }
 
-.link .current {
+.link .site-nav {
   color: var(--blue);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
-.site-nav:hover:focus {
-  color: var(--blue);
-}
-.site-nav {
+
+.link {
   color: var(--title_color);
 }
-.site-nav:active {
-  color: var(--primary_gray);
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--blue);
 }
+
 .button:active {
   color: var(--title_color);
 }
@@ -162,4 +176,7 @@ h1 {
 }
 ul {
   list-style: none;
+}
+.nav {
+  text-decoration: none;
 }
