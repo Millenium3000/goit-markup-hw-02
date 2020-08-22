@@ -6,11 +6,13 @@
   --title_color: #212121;
   --color_rgba: rgba(255, 255, 255, 0.6);
   --pink: #f5f4fa;
+  font-style: normal;
 }
 
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--button_text);
+  font-style: normal;
 }
 /* убрал маркир список */
 .list {
@@ -130,7 +132,7 @@ h1 {
 }
 .link-var {
   color: var(--color_rgba);
-  font-weight: 400;
+  text-decoration: none;
 }
 .pink {
   background-color: var(--pink);
@@ -179,4 +181,18 @@ ul {
 }
 .nav {
   text-decoration: none;
+}
+.style-text {
+  font-style: normal;
+}
+.paragraf {
+  line-height: 1.88;
+  color: var(--primary_gray);
+}
+.title {
+  color: var(--title_color);
+  line-height: 2;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.06em;
 }
