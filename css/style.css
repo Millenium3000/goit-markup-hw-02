@@ -27,7 +27,6 @@ body {
 /* Логотип */
 .logo {
   color: var(--title_color);
-  font-family: raleway, cursive;
 }
 .logo .link {
   font-family: Raleway;
@@ -131,6 +130,7 @@ h1 {
 }
 .link-var {
   color: var(--color_rgba);
+  font-weight: 400;
 }
 .pink {
   background-color: var(--pink);
