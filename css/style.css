@@ -1,129 +1,114 @@
+:root {
+  --blue: #2196f3;
+  --hero_color: #2f303a;
+  --primary_gray: #757575;
+  --button_text: #ffffff;
+  --title_color: #212121;
+  --color_rgba: rgba(255, 255, 255, 0.6);
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  background-color: var(--button_text);
 }
+/* убрал маркир список */
+.list {
+  list-style: none;
+}
+/* Убирает подчеркивание в ссылках */
+.link {
+  text-decoration: none;
+}
+/* Логотип */
 .logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  color: black;
+  color: var(--title_color);
+  font-family: raleway, cursive;
 }
+
 .logoblue {
-  color: blue;
+  color: var(--blue);
+}
+
+.link current {
+  color: var(--blue);
+}
+.site-nav:hover:focus {
+  color: var(--blue);
+}
+.site-nav {
+  color: var(--title_color);
+}
+.site-nav:active {
+  color: var(--primary_gray);
+}
+.button:active {
+  color: var(--title_color);
+}
+.hero {
+  background-color: var(--hero_color);
+  color: var(--button_text);
 }
 h1 {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   /* or 136% */
 
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: white;
 }
-.header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.02em;
-}
-button {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-.hero {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-  background: #2f303a;
-}
-.list_navigation {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-.link_b {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
-}
-.link {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-.address.link {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
+/* оформи кнопку плять */
 .button_text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  background-color: var(--blue);
+  color: var(--button_text);
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  color: white;
+  line-height: 1.88;
+  align-items: center;
+  font-family: inherit;
 }
-button {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+.link-text {
+  color: var(--title_color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary_gray);
+}
+.section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title_color);
+}
+.text-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title_color);
+}
+.dev {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary_gray);
+}
+.footer {
+  background-color: var(--hero_color);
+}
+.white {
+  background-color: var(--button_text);
 }
