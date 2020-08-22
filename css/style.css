@@ -15,15 +15,14 @@ body {
 /* убрал маркир список */
 .list {
   list-style: none;
-  text-decoration: none;
 }
 /* Убирает подчеркивание в ссылках */
 .site-nav {
-  text-decoration: none;
   list-style: none;
 }
 .link-current {
   color: var(--blue);
+  text-decoration: none;
 }
 /* Логотип */
 .logo {
@@ -52,6 +51,7 @@ body {
 
 .link {
   color: var(--title_color);
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
